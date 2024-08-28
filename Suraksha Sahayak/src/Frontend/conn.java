@@ -10,7 +10,9 @@ public class conn {
 		// TODO Auto-generated constructor stub
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			c=DriverManager.getConnection("jdbc:mysql://localhost:3306/suraksha_sahayak1","root","0987password@@");
+
+			// create database and than run the program and enter your own url,username,password.
+			// c=DriverManager.getConnection("////","////","////");
 			s=c.createStatement();
 			
 		}catch(Exception e) {
