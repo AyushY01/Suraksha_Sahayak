@@ -11,7 +11,7 @@ public class conn {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
-			// create database and than run the program and enter your own url,username,password.
+			// create database and then run the program and enter your own url,username,password.
 			// c=DriverManager.getConnection("////","////","////");
 			s=c.createStatement();
 			
